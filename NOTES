@@ -1,0 +1,10 @@
+Anotações de Aula – AWS Cloud Foundations
+Professor Alexsandro Lechner apresentou os fundamentos da computação em nuvem com foco na AWS. A formação da DIO abordou conceitos essenciais como EC2, S3, EBS e a estrutura da AWS.
+
+No primeiro módulo, aprendemos sobre regiões e zonas de disponibilidade. Cada região é composta por no mínimo duas zonas de disponibilidade, que são grupos de datacenters independentes, mas conectados logicamente. As regiões são isoladas entre si, o que aumenta a segurança e a tolerância a falhas. A escolha da região depende de fatores como conformidade, custo, latência e disponibilidade de serviços. Também vimos que a AWS oferece serviços gerenciados, prontos para uso, como EC2, S3 e RDS, que garantem escalabilidade e robustez. Empresas como Netflix e Amazon.com utilizam esses serviços em larga escala.
+
+No segundo módulo, o foco foi o Amazon EC2, que é o serviço de máquinas virtuais da AWS. Com ele, podemos escolher o sistema operacional, o tipo de instância, o armazenamento e as configurações de segurança. É ideal para hospedar aplicações, sites e bancos de dados. Aprendemos também sobre o Amazon EBS, que é um tipo de armazenamento em bloco usado com EC2. Ele funciona como um disco adicional que pode ser anexado à instância, permitindo expansão rápida e criação de novas partições. É muito útil para armazenar bancos de dados, arquivos de aplicação e logs do sistema.
+
+No terceiro módulo, exploramos o Amazon S3, que é um serviço de armazenamento de objetos. Ele é seguro, escalável e ideal para guardar grandes volumes de dados como arquivos, imagens e backups. O S3 possui diferentes classes de armazenamento que ajudam a economizar custos dependendo da frequência de acesso. Por exemplo, exames médicos antigos podem ser movidos para a classe Glacier, que é mais barata. Para isso, usamos as Lifecycle Rules, que são regras que automatizam a migração de objetos entre classes de armazenamento com base em tempo ou uso.
+
+Esses módulos trouxeram uma visão prática e estratégica da AWS, mostrando como aplicar os serviços em projetos reais e como documentar tudo de forma clara e organizada.
