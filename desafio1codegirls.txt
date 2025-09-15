@@ -1,0 +1,6 @@
+📁 dio-desafioaws-ec2/
+├── README.md
+├── notas.md
+├── /images
+│   ├── ec2-config.png
+│   └── arquitetura.png
