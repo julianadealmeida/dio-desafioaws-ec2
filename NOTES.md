@@ -1,4 +1,4 @@
-ANOTAÇÕES DE AULA
+# ANOTAÇÕES DE AULA
 
 EC2 = serviço de computação elástica da AWS (máquinas virtuais)
 
